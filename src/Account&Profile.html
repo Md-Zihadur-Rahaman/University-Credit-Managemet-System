@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="./output.css" rel="stylesheet" />
+    <title>University Credit Management System</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://db.onlinewebfonts.com/c/e25ed0fa39c44d127ab5ab3e362d8af1?family=Cooper+Lt+BT+Light"
+      rel="stylesheet"
+    />
+    <link rel="icon" type="image/x-icon" href="./images/" />
+  </head>
+  <body>
+    <!-- container section -->
+
+    <section class="max-w-6xl mx-auto bg-black/10 font-roboto p-8">
+      <!-- Account and Profile -->
+      <main
+        class="bg-white grid grid-cols-12 gap-4 border rounded-xl shadow-lg shadow-black/10"
+      >
+        <!-- SideBar -->
+        <aside class="col-span-4 flex flex-col gap-1 border-r">
+          <!-- user photo and email -->
+          <div
+            class="flex flex-row gap-x-3 border border-borderColor px-3 py-2 rounded-lg m-1"
+          >
+            <div>
+              <p
+                class="rounded-full font-bold text-white text-xs p-1 bg-blueColor"
+              >
+                AC
+              </p>
+            </div>
+            <div>
+              <p class="font-bold">Andrew Cano</p>
+              <span class="text-sm">andrewcano@gmail.com</span>
+            </div>
+          </div>
+          <!-- Account & Profile -->
+          <div
+            class="flex flex-row items-center gap-3 px-3 py-2 m-1 rounded-lg hover:bg-hoverBg hover:text-blueColor"
+          >
+            <figure class="w-5 h-5">
+              <img src="images/user.png" alt="" />
+            </figure>
+            <p class="font-bold">Account & Profile</p>
+          </div>
+          <!-- Organization -->
+          <div
+            class="flex flex-row items-center gap-3 px-3 py-2 m-1 rounded-lg hover:bg-hoverBg hover:text-blueColor"
+          >
+            <figure class="w-5 h-5">
+              <img src="images/organization.png" alt="" />
+            </figure>
+            <p class="font-bold">Organization</p>
+          </div>
+          <!-- Preference -->
+          <div
+            class="flex flex-row items-center gap-3 px-3 py-2 m-1 rounded-lg hover:bg-hoverBg hover:text-blueColor"
+          >
+            <figure class="w-5 h-5">
+              <img src="images/setting.png" alt="" />
+            </figure>
+            <p class="font-bold">Preference</p>
+          </div>
+        </aside>
+        <!-- Description section -->
+        <section class="col-span-8 flex flex-col gap-8">
+          <!-- Account & Profile and active -->
+          <div class="flex justify-between px-4 border-b py-6">
+            <h1 class="font-normal text-xl">Account & Profile</h1>
+            <div class="flex flex-row items-center gap-2">
+              <!-- green icon -->
+              <figure class="w-3 h-3">
+                <img src="images/online.png" alt="" />
+              </figure>
+              <p class="font-semibold">Active</p>
+              <figure class="w-3 h-3">
+                <img src="images/expand-button.png" alt="" />
+              </figure>
+            </div>
+          </div>
+          <!-- Upload Photo -->
+          <div class="flex flex-row items-center gap-3 px-4">
+            <p
+              class="rounded-full font-bold text-white text-xl p-6 bg-blueColor"
+            >
+              AC
+            </p>
+            <div>
+              <p class="font-bold text-blueColor">Upload Photo</p>
+              <span
+                >Pick a photo up to 4MB. Your avator profile will be
+                public.</span
+              >
+            </div>
+          </div>
+          <!-- Display Name -->
+          <div class="flex flex-row justify-between items-center px-4">
+            <div class="flex flex-col">
+              <div class="flex flex-row items-center gap-1">
+                <p class="font-bold">Display name</p>
+                <figure class="w-5 h-5">
+                  <img src="images/help.png" alt="" />
+                </figure>
+              </div>
+              <span>Add your display name to your account</span>
+            </div>
+            <!-- edit icon -->
+            <figure class="w-10 h-10 border rounded-md p-2">
+              <img src="images/pen.png" alt="" />
+            </figure>
+          </div>
+          <!-- Full name-->
+          <div class="flex flex-row justify-between items-center px-4">
+            <div class="flex flex-col">
+              <p class="font-bold">Full name</p>
+              <span>andrew Cano</span>
+            </div>
+            <!-- edit icon -->
+            <figure class="w-10 h-10 border rounded-md p-2">
+              <img src="images/pen.png" alt="" />
+            </figure>
+          </div>
+        </section>
+      </main>
+
+      <div class="pt-10 border-b-2"></div>
+      <!-- continue button -->
+      <section class="py-10 flex justify-end px-6">
+        <button class="text-white bg-blueColor rounded-lg px-3 py-2">
+          Continue
+        </button>
+      </section>
+    </section>
+  </body>
+</html>
+
+<!-- https://github.com/Md-Zihadur-Rahaman/University-Credit-Managemet-System -->
