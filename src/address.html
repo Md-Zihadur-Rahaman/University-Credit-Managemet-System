@@ -108,30 +108,51 @@
               >
             </div>
           </div>
-          <!-- Display Name Edit -->
+          <!-- Display Name -->
+          <div class="flex flex-row justify-between items-center px-4">
+            <div class="flex flex-col">
+              <div class="flex flex-row items-center gap-2">
+                <p class="font-bold">Display name</p>
+                <figure class="w-4 h-4">
+                  <img src="images/exclamation.png" alt="" />
+                </figure>
+              </div>
+              <span class="text-black/50">Andrew Cano</span>
+            </div>
+            <!-- edit icon -->
+            <button class="w-10 h-10 border border-black/40 rounded-md p-2">
+              <img src="images/pen.png" alt="" />
+            </button>
+          </div>
+
+          <!-- Full name-->
+          <div class="flex flex-row justify-between items-center px-4">
+            <div class="flex flex-col">
+              <p class="font-bold">Full name</p>
+              <span class="text-black/50">andrew Cano</span>
+            </div>
+            <!-- edit icon -->
+            <button class="w-10 h-10 border border-black/40 rounded-md p-2">
+              <img src="images/pen.png" alt="" />
+            </button>
+          </div>
+          <!-- Address Edit -->
           <div
             class="bg-editBg border-2 border-blueColor rounded-lg flex flex-col px-4"
           >
-            <!-- Display Name -->
+            <!-- Address -->
             <div class="flex flex-row justify-between items-center py-2">
               <div class="flex flex-col">
-                <div class="flex flex-row items-center gap-2">
-                  <p class="font-bold">Display name</p>
-                  <figure class="w-4 h-4">
-                    <img src="images/exclamation.png" alt="" />
-                  </figure>
-                </div>
+                <p class="font-bold">Address</p>
                 <span class="text-black/50"
-                  >Add your display name to your account</span
+                  >Add your address to your account</span
                 >
               </div>
               <!-- Information Progress section -->
               <div class="flex flex-row">
-                <!-- numerial element -->
-                <div
-                  class="w-8 h-8 flex items-center justify-center border-2 border-black/40 hover:border-blueColor hover:bg-hoverBg rounded-full p-1"
-                >
-                  <p class="">1</p>
+                <!-- Tikmark icon element -->
+                <div class="w-8 h-8 flex items-center justify-center">
+                  <img src="images/Tikmarkcheck.png" alt="" />
                 </div>
                 <!-- dash icon -->
                 <figure
@@ -139,11 +160,9 @@
                 >
                   <img src="images/CenterlineI.png" alt="" />
                 </figure>
-                <!-- numerial element -->
-                <div
-                  class="w-8 h-8 flex items-center justify-center border-2 border-black/40 hover:border-blueColor hover:bg-hoverBg rounded-full p-1"
-                >
-                  <p class="">2</p>
+                <!-- Tikmark icon element -->
+                <div class="w-8 h-8 flex items-center justify-center">
+                  <img src="images/Tikmarkcheck.png" alt="" />
                 </div>
                 <!-- dash icon -->
                 <figure
@@ -203,41 +222,89 @@
                 <div
                   class="w-8 h-8 flex items-center justify-center border-2 border-black/40 hover:border-blueColor hover:bg-hoverBg rounded-full p-1"
                 >
-                  <p class=""></p>
+                  <p class="">2</p>
                 </div>
               </div>
             </div>
             <!--   Edit -->
             <div
-              class="grid grid-cols-12 gap-1 border-1 border-black shadow-sm shadow-black/50 bg-white p-1 rounded-lg scale-110"
+              class="grid grid-cols-12 gap-2 border-1 border-black shadow-sm shadow-black/50 bg-white p-1 rounded-lg scale-x-110 scale-y-105"
             >
-              <input
-                type="text"
-                placeholder="Andrew Cano|"
-                class="col-span-9 outline-2 outline-blueColor p-2 rounded-lg"
-              />
-              <button
-                class="col-span-1 border-2 border-black/20 rounded-lg p-2"
-              >
-                Skip
-              </button>
-              <button class="col-span-2 bg-blueColor text-white rounded-lg p-2">
-                Save & Next
-              </button>
+              <!-- left input field  -->
+              <div class="col-span-8 flex flex-col gap-1">
+                <!-- field1 -->
+                <div
+                  class="grid grid-cols-12 items-center border-b-2 border-b-black/20 pb-1"
+                >
+                  <label for="" class="col-span-4 pl-2">Address Line 1</label
+                  ><input
+                    type="text"
+                    placeholder="Street address"
+                    class="col-span-8 outline-2 outline-blueColor bg-inputFieldBg p-2 rounded-lg"
+                  />
+                </div>
+                <!-- field2 -->
+                <div
+                  class="grid grid-cols-12 items-center border-b-2 border-b-black/20 pb-1"
+                >
+                  <label for="" class="col-span-4 pl-2">Address Line 2</label
+                  ><input
+                    type="text"
+                    placeholder="Suite, Apt, Unit, etc"
+                    class="col-span-8 outline-2 outline-blueColor bg-inputFieldBg p-2 rounded-lg"
+                  />
+                </div>
+                <!-- field3 -->
+                <div
+                  class="grid grid-cols-12 items-center border-b-2 border-b-black/20 pb-1"
+                >
+                  <label for="" class="col-span-4 pl-2">City</label
+                  ><input
+                    type="text"
+                    placeholder="Enter City"
+                    class="col-span-8 outline-2 outline-blueColor bg-inputFieldBg p-2 rounded-lg"
+                  />
+                </div>
+                <!-- field4 -->
+                <div
+                  class="grid grid-cols-12 items-center border-b-2 border-b-black/20 pb-1 relative"
+                >
+                  <label for="" class="col-span-4 pl-2">State</label>
+
+                  <input
+                    type="text"
+                    placeholder="Select State"
+                    class="col-span-8 outline-2 outline-blueColor bg-inputFieldBg p-2 rounded-lg"
+                  />
+
+                  <img
+                    src="images/option.png"
+                    alt=""
+                    class="w-4 h-4 absolute right-2 top-3 opacity-50 cursor-pointer"
+                  />
+                </div>
+                <!-- field5 -->
+                <div class="grid grid-cols-12 items-center pb-1">
+                  <label for="" class="col-span-4 pl-2">Zip Code</label
+                  ><input
+                    type="text"
+                    placeholder="XXXXX"
+                    class="col-span-8 outline-2 outline-blueColor bg-inputFieldBg p-2 rounded-lg"
+                  />
+                </div>
+              </div>
+              <!-- right button field -->
+              <div class="col-span-4 flex flex-row gap-1 items-end">
+                <button class="border-2 border-black/20 rounded-lg p-2">
+                  Skip
+                </button>
+                <button class="bg-blueColor text-white rounded-lg p-2">
+                  Save & Next
+                </button>
+              </div>
             </div>
           </div>
 
-          <!-- Full name-->
-          <div class="flex flex-row justify-between items-center px-4">
-            <div class="flex flex-col">
-              <p class="font-bold">Full name</p>
-              <span class="text-black/50">andrew Cano</span>
-            </div>
-            <!-- edit icon -->
-            <button class="w-10 h-10 border border-black/40 rounded-md p-2">
-              <img src="images/pen.png" alt="" />
-            </button>
-          </div>
           <!-- Address-->
           <div class="flex flex-row justify-between items-center px-4">
             <div class="flex flex-col">

@@ -93,45 +93,24 @@
               </figure>
             </div>
           </div>
-          <!-- Upload Photo -->
-          <div class="flex flex-row items-center gap-3 px-4">
-            <p
-              class="rounded-full font-bold text-white text-xl p-6 bg-blueColor"
-            >
-              AC
-            </p>
-            <div>
-              <p class="font-bold text-blueColor">Upload Photo</p>
-              <span class="text-black/50"
-                >Pick a photo up to 4MB. Your avator profile will be
-                public.</span
-              >
-            </div>
-          </div>
-          <!-- Display Name Edit -->
+          <!-- Profile Picture Edit -->
           <div
             class="bg-editBg border-2 border-blueColor rounded-lg flex flex-col px-4"
           >
-            <!-- Display Name -->
-            <div class="flex flex-row justify-between items-center py-2">
-              <div class="flex flex-col">
-                <div class="flex flex-row items-center gap-2">
-                  <p class="font-bold">Display name</p>
-                  <figure class="w-4 h-4">
-                    <img src="images/exclamation.png" alt="" />
-                  </figure>
-                </div>
+            <!-- Profile Picture -->
+            <div class="flex flex-row justify-between items-center gap-2 py-2">
+              <div>
+                <p class="font-bold text-blueColor">Profile Picture</p>
                 <span class="text-black/50"
-                  >Add your display name to your account</span
+                  >Pick a photo up to 4MB. Your avator photo will be
+                  public.</span
                 >
               </div>
               <!-- Information Progress section -->
               <div class="flex flex-row">
-                <!-- numerial element -->
-                <div
-                  class="w-8 h-8 flex items-center justify-center border-2 border-black/40 hover:border-blueColor hover:bg-hoverBg rounded-full p-1"
-                >
-                  <p class="">1</p>
+                <!-- Tikmark icon element -->
+                <div class="w-8 h-8 flex items-center justify-center">
+                  <img src="images/Tikmarkcheck.png" alt="" />
                 </div>
                 <!-- dash icon -->
                 <figure
@@ -203,28 +182,57 @@
                 <div
                   class="w-8 h-8 flex items-center justify-center border-2 border-black/40 hover:border-blueColor hover:bg-hoverBg rounded-full p-1"
                 >
-                  <p class=""></p>
+                  <p class="">7</p>
                 </div>
               </div>
             </div>
-            <!--   Edit -->
+            <!--   Profile Picture Edit -->
             <div
-              class="grid grid-cols-12 gap-1 border-1 border-black shadow-sm shadow-black/50 bg-white p-1 rounded-lg scale-110"
+              class="border-1 border-black shadow-sm shadow-black/50 bg-white p-1 rounded-lg scale-x-110 scale-y-105"
             >
-              <input
-                type="text"
-                placeholder="Andrew Cano|"
-                class="col-span-9 outline-2 outline-blueColor p-2 rounded-lg"
-              />
-              <button
-                class="col-span-1 border-2 border-black/20 rounded-lg p-2"
+              <!-- Drag and drop photo section -->
+              <div
+                class="flex flex-row gap-2 items-center justify-center border-2 border-black/40 border-dashed rounded-lg py-8"
               >
-                Skip
-              </button>
-              <button class="col-span-2 bg-blueColor text-white rounded-lg p-2">
-                Save & Next
-              </button>
+                <figure class="">
+                  <img src="images/Drag&Drop.png" alt="" class="w-5 h-5" />
+                </figure>
+                <p class="text-black/50">
+                  <span class="text-blueColor">Click to upload</span>
+                  or drag and drop
+                </p>
+              </div>
+              <!-- button section -->
+              <div class="flex justify-end gap-1 p-1">
+                <button class="border-2 border-black/20 rounded-lg p-2">
+                  Skip</button
+                ><button
+                  class="bg-blueColor text-white rounded-lg p-2 opacity-50"
+                  type="button"
+                  disabled
+                >
+                  Save & Next
+                </button>
+              </div>
             </div>
+          </div>
+          <!-- Display Name -->
+          <div class="flex flex-row justify-between items-center px-4">
+            <div class="flex flex-col">
+              <div class="flex flex-row items-center gap-2">
+                <p class="font-bold">Display name</p>
+                <figure class="w-4 h-4">
+                  <img src="images/exclamation.png" alt="" />
+                </figure>
+              </div>
+              <span class="text-black/50"
+                >Add your display name to your account</span
+              >
+            </div>
+            <!-- edit icon -->
+            <button class="w-10 h-10 border border-black/40 rounded-md p-2">
+              <img src="images/pen.png" alt="" />
+            </button>
           </div>
 
           <!-- Full name-->

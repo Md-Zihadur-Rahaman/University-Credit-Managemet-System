@@ -24,7 +24,7 @@
   <body class="bg-black/10">
     <!-- container section -->
 
-    <section class="max-w-6xl mx-auto font-roboto p-8">
+    <section class="max-w-6xl mx-auto h-full font-roboto p-8">
       <!-- Account and Profile -->
       <main
         class="bg-white grid grid-cols-12 gap-4 border rounded-xl shadow-lg shadow-black/10"
@@ -75,63 +75,52 @@
             <p class="font-bold">Preference</p>
           </div>
         </aside>
-        <!-- Description section -->
+        <!-- Organization Description section -->
         <section class="col-span-8 flex flex-col gap-8 px-6">
-          <!-- Account & Profile and active -->
+          <!-- Organization  -->
           <div
             class="flex justify-between mx-4 border-b-2 border-b-black/20 py-6"
           >
-            <h1 class="font-normal text-xl">Account & Profile</h1>
-            <div class="flex flex-row items-center gap-2">
-              <!-- green icon -->
-              <figure class="w-3 h-3">
-                <img src="images/online.png" alt="" />
-              </figure>
-              <p class="font-semibold">Active</p>
-              <figure class="w-3 h-3">
-                <img src="images/expand-button.png" alt="" />
-              </figure>
-            </div>
+            <h1 class="font-normal text-xl">Organization</h1>
           </div>
-          <!-- Upload Photo -->
-          <div class="flex flex-row items-center gap-3 px-4">
-            <p
-              class="rounded-full font-bold text-white text-xl p-6 bg-blueColor"
-            >
-              AC
-            </p>
-            <div>
-              <p class="font-bold text-blueColor">Upload Photo</p>
-              <span class="text-black/50"
-                >Pick a photo up to 4MB. Your avator profile will be
-                public.</span
-              >
-            </div>
-          </div>
-          <!-- Display Name Edit -->
+          <!-- Organization Name Edit -->
           <div
             class="bg-editBg border-2 border-blueColor rounded-lg flex flex-col px-4"
           >
-            <!-- Display Name -->
-            <div class="flex flex-row justify-between items-center py-2">
+            <!-- Organization Name -->
+            <div class="flex flex-row gap-1 justify-between items-center py-2">
               <div class="flex flex-col">
-                <div class="flex flex-row items-center gap-2">
-                  <p class="font-bold">Display name</p>
-                  <figure class="w-4 h-4">
-                    <img src="images/exclamation.png" alt="" />
-                  </figure>
-                </div>
-                <span class="text-black/50"
-                  >Add your display name to your account</span
+                <p class="font-bold">Organization name</p>
+                <span class="text- text-black/50"
+                  >Add your organization name to your account</span
                 >
               </div>
               <!-- Information Progress section -->
               <div class="flex flex-row">
-                <!-- numerial element -->
-                <div
-                  class="w-8 h-8 flex items-center justify-center border-2 border-black/40 hover:border-blueColor hover:bg-hoverBg rounded-full p-1"
+                <!-- Tikmark icon element -->
+                <div class="w-8 h-8 flex items-center justify-center">
+                  <img src="images/Tikmarkcheck.png" alt="" />
+                </div>
+                <!-- dash icon -->
+                <figure
+                  class="w-4 h-8 flex items-center justify-center opacity-60"
                 >
-                  <p class="">1</p>
+                  <img src="images/CenterlineI.png" alt="" />
+                </figure>
+
+                <!-- Tikmark icon element -->
+                <div class="w-8 h-8 flex items-center justify-center">
+                  <img src="images/Tikmarkcheck.png" alt="" />
+                </div>
+                <!-- dash icon -->
+                <figure
+                  class="w-4 h-8 flex items-center justify-center opacity-60"
+                >
+                  <img src="images/CenterlineI.png" alt="" />
+                </figure>
+                <!-- Tikmark icon element -->
+                <div class="w-8 h-8 flex items-center justify-center">
+                  <img src="images/Tikmarkcheck.png" alt="" />
                 </div>
                 <!-- dash icon -->
                 <figure
@@ -140,34 +129,9 @@
                   <img src="images/CenterlineI.png" alt="" />
                 </figure>
                 <!-- numerial element -->
-                <div
-                  class="w-8 h-8 flex items-center justify-center border-2 border-black/40 hover:border-blueColor hover:bg-hoverBg rounded-full p-1"
-                >
-                  <p class="">2</p>
-                </div>
-                <!-- dash icon -->
-                <figure
-                  class="w-4 h-8 flex items-center justify-center opacity-60"
-                >
-                  <img src="images/CenterlineI.png" alt="" />
-                </figure>
-                <!-- numerial element -->
-                <div
-                  class="w-8 h-8 flex items-center justify-center border-2 border-black/40 hover:border-blueColor hover:bg-hoverBg rounded-full p-1"
-                >
-                  <p class="">3</p>
-                </div>
-                <!-- dash icon -->
-                <figure
-                  class="w-4 h-8 flex items-center justify-center opacity-60"
-                >
-                  <img src="images/CenterlineI.png" alt="" />
-                </figure>
-                <!-- numerial element -->
-                <div
-                  class="w-8 h-8 flex items-center justify-center border-2 border-black/40 hover:border-blueColor hover:bg-hoverBg rounded-full p-1"
-                >
-                  <p class="">4</p>
+                <!-- Tikmark icon element -->
+                <div class="w-8 h-8 flex items-center justify-center">
+                  <img src="images/Tikmarkcheck.png" alt="" />
                 </div>
                 <!-- dash icon -->
                 <figure
@@ -203,17 +167,17 @@
                 <div
                   class="w-8 h-8 flex items-center justify-center border-2 border-black/40 hover:border-blueColor hover:bg-hoverBg rounded-full p-1"
                 >
-                  <p class=""></p>
+                  <p class="">7</p>
                 </div>
               </div>
             </div>
-            <!--   Edit -->
+            <!-- Organization  Edit -->
             <div
               class="grid grid-cols-12 gap-1 border-1 border-black shadow-sm shadow-black/50 bg-white p-1 rounded-lg scale-110"
             >
               <input
                 type="text"
-                placeholder="Andrew Cano|"
+                placeholder="Enter organization name"
                 class="col-span-9 outline-2 outline-blueColor p-2 rounded-lg"
               />
               <button
@@ -221,106 +185,40 @@
               >
                 Skip
               </button>
-              <button class="col-span-2 bg-blueColor text-white rounded-lg p-2">
+              <button
+                class="col-span-2 bg-blueColor text-white rounded-lg p-2 opacity-50"
+                type="button"
+                disabled
+              >
                 Save & Next
               </button>
             </div>
           </div>
-
-          <!-- Full name-->
+          <!-- Organization address-->
           <div class="flex flex-row justify-between items-center px-4">
             <div class="flex flex-col">
-              <p class="font-bold">Full name</p>
-              <span class="text-black/50">andrew Cano</span>
+              <p class="font-bold">Organization address</p>
+              <span class="text-black/50"
+                >Add your Organization address to your account</span
+              >
             </div>
             <!-- edit icon -->
             <button class="w-10 h-10 border border-black/40 rounded-md p-2">
               <img src="images/pen.png" alt="" />
-            </button>
-          </div>
-          <!-- Address-->
-          <div class="flex flex-row justify-between items-center px-4">
-            <div class="flex flex-col">
-              <p class="font-bold">Address</p>
-              <span class="text-black/50"
-                >Add your address to your account</span
-              >
-            </div>
-            <!-- Add button -->
-            <button class="border border-black/40 rounded-md p-2 font-semibold">
-              Add
             </button>
           </div>
 
-          <!-- Phone number-->
-          <div class="flex flex-row justify-between items-center px-4">
+          <!-- Job title-->
+          <div class="flex flex-row justify-between items-center px-4 pb-96">
             <div class="flex flex-col">
-              <p class="font-bold">Phone number</p>
+              <p class="font-bold">Job title</p>
               <span class="text-black/50"
-                >Add your phone number to your account</span
-              >
-            </div>
-            <!-- Add button -->
-            <button class="border border-black/40 rounded-md p-2 font-semibold">
-              Add
-            </button>
-          </div>
-          <!-- Email -->
-          <div class="flex flex-row justify-between items-center px-4">
-            <div class="flex flex-col">
-              <p class="font-bold">Email</p>
-              <span class="text-black/50">andrewcano@gmail.com</span>
-            </div>
-            <!-- edit icon -->
-            <button class="w-10 h-10 border border-black/40 rounded-md p-2">
-              <img src="images/pen.png" alt="" />
-            </button>
-          </div>
-          <!-- Account Security -->
-          <div
-            class="flex justify-between mx-4 border-b-2 border-b-black/20 py-3"
-          >
-            <h1 class="font-bold text-lg">Account Security</h1>
-          </div>
-          <!-- Password -->
-          <div class="flex flex-row justify-between items-center px-4">
-            <div class="flex flex-col">
-              <p class="font-bold">Password</p>
-              <span class="text-black/50"
-                >Update the password you use for your account</span
+                >Add your Job title to your account</span
               >
             </div>
             <!-- edit icon -->
             <button class="w-10 h-10 border border-black/40 rounded-md p-2">
               <img src="images/pen.png" alt="" />
-            </button>
-          </div>
-          <!-- Multi-factor authentication-->
-          <div class="flex flex-row justify-between items-center px-4">
-            <div class="flex flex-col">
-              <p class="font-bold">Phone number</p>
-              <span class="text-black/50"
-                >Enable MFA security option at login</span
-              >
-            </div>
-            <!-- Turn on button -->
-            <button class="border border-black/40 rounded-md p-2 font-semibold">
-              Turn on
-            </button>
-          </div>
-          <!-- Log out of all sessions-->
-          <div class="flex flex-row justify-between items-center px-4 pb-8">
-            <div class="flex flex-col">
-              <p class="font-bold">Log out of all sessions</p>
-              <span class="text-black/50"
-                >Securely log out from all active sessions and device</span
-              >
-            </div>
-            <!-- Log out of all sessions button -->
-            <button
-              class="border rounded-md bg-buttonBgColor text-white p-2 font-semibold"
-            >
-              Log out of all sessions
             </button>
           </div>
         </section>
