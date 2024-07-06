@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="./output.css" rel="stylesheet" />
+    <title>University Credit Management System</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://db.onlinewebfonts.com/c/e25ed0fa39c44d127ab5ab3e362d8af1?family=Cooper+Lt+BT+Light"
+      rel="stylesheet"
+    />
+    <link rel="icon" type="image/x-icon" href="./images/" />
+  </head>
+  <body class="bg-black/10">
+    <!-- container section -->
+
+    <section class="max-w-6xl mx-auto h-full font-roboto p-8">
+      <!-- Account and Profile -->
+      <main
+        class="bg-white grid grid-cols-12 gap-4 border rounded-xl shadow-lg shadow-black/10"
+      >
+        <!-- SideBar -->
+        <aside class="col-span-4 flex flex-col gap-1 border-r">
+          <!-- user photo and email -->
+          <div
+            class="flex flex-row gap-x-3 border border-borderColor px-3 py-2 rounded-lg m-1"
+          >
+            <div>
+              <p
+                class="rounded-full font-bold text-white text-xs p-1 bg-blueColor"
+              >
+                AC
+              </p>
+            </div>
+            <div>
+              <p class="font-bold">Andrew Cano</p>
+              <span class="text-sm text-black/50">andrewcano@gmail.com</span>
+            </div>
+          </div>
+          <!-- Account & Profile -->
+          <div
+            class="flex flex-row items-center gap-3 px-3 py-2 m-1 rounded-lg hover:bg-hoverBg hover:text-blueColor"
+          >
+            <figure class="w-5 h-5">
+              <img src="images/user.png" alt="" />
+            </figure>
+            <p class="font-bold">Account & Profile</p>
+          </div>
+          <!-- Organization -->
+          <div
+            class="flex flex-row items-center gap-3 px-3 py-2 m-1 rounded-lg hover:bg-hoverBg hover:text-blueColor"
+          >
+            <figure class="w-5 h-5">
+              <img src="images/organization.png" alt="" />
+            </figure>
+            <p class="font-bold">Organization</p>
+          </div>
+          <!-- Preference -->
+          <div
+            class="flex flex-row items-center gap-3 px-3 py-2 m-1 rounded-lg hover:bg-hoverBg hover:text-blueColor"
+          >
+            <figure class="w-5 h-5">
+              <img src="images/setting.png" alt="" />
+            </figure>
+            <p class="font-bold">Preference</p>
+          </div>
+        </aside>
+        <!-- Organization Description section -->
+        <section class="col-span-8 flex flex-col gap-8 px-6">
+          <!-- Organization  -->
+          <div
+            class="flex justify-between mx-4 border-b-2 border-b-black/20 py-6"
+          >
+            <h1 class="font-normal text-xl">Organization</h1>
+          </div>
+
+          <!-- Organization name-->
+          <div class="flex flex-row justify-between items-center px-4">
+            <div class="flex flex-col">
+              <p class="font-bold">Organization name</p>
+              <span class="text-black/50">Teacher friendly</span>
+            </div>
+            <!-- edit icon -->
+            <button class="w-10 h-10 border border-black/40 rounded-md p-2">
+              <img src="images/pen.png" alt="" />
+            </button>
+          </div>
+
+          <!-- Organization address-->
+          <div class="flex flex-row justify-between items-center px-4">
+            <div class="flex flex-col">
+              <p class="font-bold">Organization address</p>
+              <span class="text-black/50"
+                >3375 Northshore Dr, Toomsuba, Mississippi(MS),
+              </span>
+            </div>
+            <!-- edit icon -->
+            <button class="w-10 h-10 border border-black/40 rounded-md p-2">
+              <img src="images/pen.png" alt="" />
+            </button>
+          </div>
+
+          <!-- Job title Edit -->
+          <div
+            class="bg-editBg border-2 border-blueColor rounded-lg flex flex-col px-4"
+          >
+            <!-- Job title -->
+            <div class="flex flex-row gap-1 justify-between items-center py-2">
+              <div class="flex flex-col">
+                <p class="font-bold">Job title</p>
+                <span class="text-black/50"
+                  >Add your Job title to your account</span
+                >
+              </div>
+              <!-- Information Progress section -->
+              <div class="flex flex-row">
+                <!-- Tikmark icon element -->
+                <div class="w-8 h-8 flex items-center justify-center">
+                  <img src="images/Tikmarkcheck.png" alt="" />
+                </div>
+                <!-- dash icon -->
+                <figure
+                  class="w-4 h-8 flex items-center justify-center opacity-60"
+                >
+                  <img src="images/CenterlineI.png" alt="" />
+                </figure>
+
+                <!-- Tikmark icon element -->
+                <div class="w-8 h-8 flex items-center justify-center">
+                  <img src="images/Tikmarkcheck.png" alt="" />
+                </div>
+                <!-- dash icon -->
+                <figure
+                  class="w-4 h-8 flex items-center justify-center opacity-60"
+                >
+                  <img src="images/CenterlineI.png" alt="" />
+                </figure>
+                <!-- Tikmark icon element -->
+                <div class="w-8 h-8 flex items-center justify-center">
+                  <img src="images/Tikmarkcheck.png" alt="" />
+                </div>
+                <!-- dash icon -->
+                <figure
+                  class="w-4 h-8 flex items-center justify-center opacity-60"
+                >
+                  <img src="images/CenterlineI.png" alt="" />
+                </figure>
+
+                <!-- Tikmark icon element -->
+                <div class="w-8 h-8 flex items-center justify-center">
+                  <img src="images/Tikmarkcheck.png" alt="" />
+                </div>
+                <!-- dash icon -->
+                <figure
+                  class="w-4 h-8 flex items-center justify-center opacity-60"
+                >
+                  <img src="images/CenterlineI.png" alt="" />
+                </figure>
+                <!-- Tikmark icon element -->
+                <div class="w-8 h-8 flex items-center justify-center">
+                  <img src="images/Tikmarkcheck.png" alt="" />
+                </div>
+                <!-- dash icon -->
+                <figure
+                  class="w-4 h-8 flex items-center justify-center opacity-60"
+                >
+                  <img src="images/CenterlineI.png" alt="" />
+                </figure>
+                <!-- Tikmark icon element -->
+                <div class="w-8 h-8 flex items-center justify-center">
+                  <img src="images/Tikmarkcheck.png" alt="" />
+                </div>
+                <!-- dash icon -->
+                <figure
+                  class="w-4 h-8 flex items-center justify-center opacity-60"
+                >
+                  <img src="images/CenterlineI.png" alt="" />
+                </figure>
+                <!-- numerial element -->
+                <div
+                  class="w-8 h-8 flex items-center justify-center border-2 border-black/40 hover:border-blueColor hover:bg-hoverBg rounded-full p-1"
+                >
+                  <p class="">7</p>
+                </div>
+              </div>
+            </div>
+            <!-- Job title  Edit -->
+            <div
+              class="grid grid-cols-12 gap-1 border-1 border-black shadow-sm shadow-black/50 bg-white p-1 rounded-lg scale-110"
+            >
+              <input
+                type="text"
+                placeholder="Enter job title"
+                class="col-span-9 outline-2 outline-blueColor p-2 rounded-lg"
+              />
+              <button
+                class="col-span-1 border-2 border-black/20 rounded-lg p-2"
+              >
+                Skip
+              </button>
+              <button
+                class="col-span-2 bg-blueColor text-white rounded-lg px-1 py-2 opacity-50"
+                type="button"
+                disabled
+              >
+                Save & Done
+              </button>
+            </div>
+          </div>
+          <div class="pb-96"></div>
+        </section>
+      </main>
+    </section>
+  </body>
+</html>
+
+<!-- https://github.com/Md-Zihadur-Rahaman/University-Credit-Managemet-System -->
